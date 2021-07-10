@@ -1,4 +1,4 @@
-var bg,sleep,brush,Gym,eat,drink,move,bath;
+var bg,sleep,brush,exer,eat,drink,move,bath;
 var astronaut;
 
 function preload(){
@@ -6,7 +6,7 @@ function preload(){
 bg = loadImage("images/iss.png");
 sleep = loadImage("images/sleep.png");
 brush = loadImage("images/brush.png");
-Gym   = loadAnimation("images/gym1.png","images/gym2.png");
+exer   = loadAnimation("images/gym1.png","images/gym2.png");
 eat   = loadAnimation("images/eat1.png","images/eat2.png");
 drink = loadAnimation("images/drink1.png","images/dring2.png");
 move  = loadAnimation("images/move.png","move1.png");
